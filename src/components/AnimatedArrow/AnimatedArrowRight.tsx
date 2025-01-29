@@ -3,12 +3,12 @@ import { motion } from "framer-motion";
 const AnimatedArrowRight = () => {
   return (
     <motion.svg
-      width="200"
-      height="300"
+      width="20rem"
+      height="220"
       viewBox="0 0 200 100"
       fill="none"
       stroke="black"
-      strokeWidth="3"
+      strokeWidth="5"
       xmlns="http://www.w3.org/2000/svg"
     >
       <motion.path
