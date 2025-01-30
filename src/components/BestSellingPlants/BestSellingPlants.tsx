@@ -1,6 +1,6 @@
 import { ReactSVG } from "react-svg";
 import ArrowRightIcon from "../../assets/icons/ArrowRight.svg";
-import { UsePlantsStore } from "../../store/usePlantsStore";
+import { UsePlantsStore } from "../../store/PlantsStore";
 
 export default function BestSellingPlants() {
   const { Plants } = UsePlantsStore();

@@ -1,6 +1,7 @@
 import AboutUs from "./components/AboutUs/AboutUs";
 import BestSellingPlants from "./components/BestSellingPlants/BestSellingPlants";
 import Categories from "./components/Categories/Categories";
+import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import HeroSection from "./components/HeroSection/HeroSection";
 import Testimonials from "./components/Testimonials/Testimonials";
@@ -20,6 +21,8 @@ function App() {
       <div className="px-[9.6rem]">
         <Testimonials></Testimonials>
       </div>
+
+      <Footer></Footer>
     </main>
   );
 }
