@@ -11,7 +11,7 @@ export default function AboutUs() {
         Order now and appreciate the beauty of nature
       </p>
 
-      <div className="flex justify-between mt-[4.8rem] mb-[16.5rem]">
+      <div className="flex justify-between items-center mt-[4.8rem] mb-[16.5rem]">
         <div className="w-[36rem]">
           <aside className="bg-lightBlue m-auto rounded-full w-[9.6rem] h-[9.6rem] flex items-center justify-center">
             <ReactSVG src={PlantIcon} />
@@ -23,7 +23,7 @@ export default function AboutUs() {
             each category.
           </p>
         </div>
-        <div className="w-[36rem]">
+        <div className="w-[36rem] ">
           <aside className="bg-lightBlue m-auto rounded-full w-[9.6rem] h-[9.6rem] flex items-center justify-center">
             <ReactSVG src={CubeIcon} />
           </aside>
