@@ -6,7 +6,7 @@ export default {
       colors: {
         lightBlue: "#C1DCDC",
         darkGray: "#1E1E1E",
-        lightGray: "#B6B5B5",
+        lightGray: "#B6B5B1",
       },
       fontFamily: { sans: ["Poppins", "sans-serif"] },
       animation: {
