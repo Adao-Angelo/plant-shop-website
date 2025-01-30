@@ -4,7 +4,7 @@ import { AnimatedArrowLeft, AnimatedArrowRight } from "../AnimatedArrow";
 
 export default function HeroSection() {
   return (
-    <main className="flex justify-between items-start py-[4.8rem] bg-lightBlue pb-[0rem]  pr-[9.8rem]  pt-[4.8rem] pl-[4.8rem] rounded-[2.4rem]">
+    <section className="flex justify-between items-start py-[4.8rem] bg-lightBlue pb-[0rem]  pr-[8rem]  pt-[4.8rem] pl-[4.8rem] rounded-[2.4rem]">
       <section>
         <h1 className="font-extrabold text-[6.4rem] w-[51.2rem] leading-none">
           Buy your dream plants
@@ -31,16 +31,22 @@ export default function HeroSection() {
           </button>
         </div>
       </section>
-      <section className="relative">
-        <aside className="absolute top-[-10rem] right-[-20rem] animate-up-down">
+      <section className="relative mt-[6rem]">
+        <aside className="absolute top-[-15rem] right-[-16rem]">
           <AnimatedArrowRight></AnimatedArrowRight>
         </aside>
-        <aside className="absolute bottom-[10rem] left-[-20rem]">
+        <aside className="absolute bottom-[10rem] left-[-18rem]">
           <AnimatedArrowLeft></AnimatedArrowLeft>
         </aside>
 
-        <div className="w-[45rem] h-[40rem] bg-darkGray rounded-l-[20rem] rounded-tr-[20rem]"></div>
+        <div className="w-[45rem] relative h-[40rem] bg-darkGray rounded-l-[20rem] rounded-tr-[20rem]">
+          <img
+            className="w-[30rem] absolute bottom-0 left-[12rem]"
+            src="/heroPlantImage.png"
+            alt="Hero plant Image"
+          />
+        </div>
       </section>
-    </main>
+    </section>
   );
 }
