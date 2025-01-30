@@ -2,6 +2,8 @@
 
 Welcome to **Plant Shop Website**, a modern and interactive landing page developed with **React**, using **Framer Motion**, **Tailwind CSS**, and **TypeScript** for a smooth and stylish experience.
 
+<img src="./.github/Plant-Shop-Thumbnail.png">
+
 ## 📌 Technologies Used
 
 | Technology      | Description                                           | Icon |
